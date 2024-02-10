@@ -18,5 +18,3 @@ We welcome contributions to improve the project. Please read the contributing gu
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
 
-## Acknowledgments
-Special thanks to everyone who contributed to the development and maintenance of this project.
