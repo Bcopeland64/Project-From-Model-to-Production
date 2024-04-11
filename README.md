@@ -64,11 +64,13 @@ profile_city = ProfileReport(data_city, title="City Level Profiling Report")
 ### Additional Information
 
 Important IPs:
+
     Prometheus: localhost:9090
     MLFlow: localhost:5001
     Grafana: localhost:3000
     
 Generated Files:
+
     Model: Final Classification Model.pkl
     Drift Report: Classification_State_Metrics_1688755676_Drift_Report.html
 
