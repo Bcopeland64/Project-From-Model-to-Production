@@ -45,16 +45,20 @@ profile_city = ProfileReport(data_city, title="City Level Profiling Report")
 
 1 - Identify top stops:
     Analyze and print the top 10 states and cities based on the number of stops.
+    
 2 - Impute missing values:
     Handle missing numerical values by imputation.
+    
 3 - Build and evaluate the classification model:
     Use pycaret to set up the classification model, compare different models, and finalize the best model.
+    
 4 - Track experiments with MLflow:
     Set up and start the MLflow server for tracking experiments.
 
 ### Monitoring and Reporting
 
 1 - Start Grafana and Prometheus servers for data monitoring.
+
 2 - Check for data drift to ensure the model's relevance over time.
 
 ### Additional Information
