@@ -34,6 +34,44 @@ import pandas as pd
 
 data_state = pd.read_csv('path_to/opp-stops_state.csv')
 data_city = pd.read_csv('path_to/opp-stops_city.csv')
+```
+### Data ProfilingGenerate profiling reports:
+```from ydata_profiling import ProfileReport
+
+profile_state = ProfileReport(data_state, title="State Level Profiling Report")
+profile_city = ProfileReport(data_city, title="City Level Profiling Report")
+```
+### Analysis and Machine Learning
+
+1 - Identify top stops:
+    Analyze and print the top 10 states and cities based on the number of stops.
+2 - Impute missing values:
+    Handle missing numerical values by imputation.
+3 - Build and evaluate the classification model:
+    Use pycaret to set up the classification model, compare different models, and finalize the best model.
+4 - Track experiments with MLflow:
+    Set up and start the MLflow server for tracking experiments.
+
+### Monitoring and Reporting
+
+1 - Start Grafana and Prometheus servers for data monitoring.
+2 - Check for data drift to ensure the model's relevance over time.
+
+### Additional Information
+
+Important IPs:
+    Prometheus: localhost:9090
+    MLFlow: localhost:5001
+    Grafana: localhost:3000
+    
+Generated Files:
+    Model: Final Classification Model.pkl
+    Drift Report: Classification_State_Metrics_1688755676_Drift_Report.html
+
+### Conclusion
+
+This project demonstrates a comprehensive approach to analyzing traffic stop data using data profiling, machine learning, and monitoring tools. It aids in understanding the dynamics of traffic stops across different demographics and locations.
 
 
+This README provides a structured overview of your project, outlining its purpose, datasets, main features, usage instructions, and additional details for a thorough understanding.
 
