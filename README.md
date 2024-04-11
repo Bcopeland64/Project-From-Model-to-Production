@@ -1,7 +1,7 @@
 # Traffic Stop Data Analysis Project
 
 ## Overview
-This project focuses on analyzing traffic stop data across various states and cities in the U.S. The aim is to perform profiling, classification, and evaluation of traffic stop data based on different demographic factors such as race. The project utilizes Python libraries such as Pandas, NumPy, YData Profiling, MLflow, and Pycaret for data processing, analysis, and machine learning.
+This project focuses on analyzing traffic stop data across various states and cities in the U.S. The aim is to perform profiling, classification, and evaluation of traffic stop data based on different demographic factors such as race and gender. The project utilizes Python libraries such as Pandas, NumPy, YData Profiling, MLflow, and Pycaret for data processing, analysis, and machine learning.
 
 ## Dataset Description
 The project uses two datasets:
