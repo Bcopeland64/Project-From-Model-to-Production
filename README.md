@@ -79,5 +79,4 @@ Generated Files:
 This project demonstrates a comprehensive approach to analyzing traffic stop data using data profiling, machine learning, and monitoring tools. It aids in understanding the dynamics of traffic stops across different demographics and locations.
 
 
-This README provides a structured overview of your project, outlining its purpose, datasets, main features, usage instructions, and additional details for a thorough understanding.
 
